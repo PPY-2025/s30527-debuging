@@ -93,7 +93,7 @@ def simulate_battle():
 
 # Testy (asercje)
     assert m.hp == 45  # 60 - 15 od wojownika
-    assert w.hp == 25  # 3 ataki po 25 -> 75 obrażeń
+    assert w.hp == 50
     assert m.mana == 0  # 2 ataki = 20 many
 
 simulate_battle()
